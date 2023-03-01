@@ -1,0 +1,89 @@
+fill(0, 0, 0);
+ellipse(200, 200, 375, 375);
+fill(60, 0, 255);
+triangle(200, 104, 280, 280, 120, 280);
+fill(255, 255, 255);
+var answer = floor(random(1, 22));
+if (answer === 1) {
+    text("TRY", 186, 200);
+    text("AGAIN LATER", 159, 229); 
+}
+if (answer === 2) {
+    text("IT IS",186,200);
+    text("CERTAIN",172,229);
+}
+if (answer === 3) {
+    text("REPLY HAZY",162,200);
+    text("TRY AGAIN",166,229);
+}
+if (answer === 4) {
+    text("DON'T COUNT",158,210);
+    text("ON IT",180,235);
+}
+if (answer === 5) {
+    text("IT IS",185,200);
+    text("DECIDEDLY SO",153,229);
+}
+if (answer === 6) {
+    text("MY REPLY",168,205);
+    text("IS NO",180,235);
+}
+if (answer === 7) {
+    text("WITHOUT",170,200);
+    text("A DOUBT",170,229);
+}
+if (answer === 8) {
+    text("BETTER NOT",162,200);
+    text("NOT TELL NOW",153,229);
+}
+if (answer === 9) {
+    text("MY SOURCES",160,215);
+    text("SAY NO",175,237);
+}
+if (answer === 10) {
+    text("YES",185,200);
+    text("DEFINITELY",165,229);
+}
+if (answer === 11) {
+    text("CANNOT",175,200);
+    text("PREDICT NOW",155,229);
+}
+if (answer === 12) {
+    text("OUTLOOK NOT",157,215);
+    text("SO GOOD",170,238);
+}
+if (answer === 13) {
+    text("YOU MAY",170,200);
+    text("RELY ON IT",165,229);
+}
+if (answer === 14) {
+    text("CONCENTRATE",153,220);
+    text("AND ASK AGAIN",153,240);
+}
+if (answer === 15) {
+    text("VERY",180,200);
+    text("DOUBTFUL",170,229);
+}
+if (answer === 16) {
+    text("AS I SEE",170,200);
+    text("IT YES",175,229);
+}
+if (answer === 17) {
+    text("MOST",180,200);
+    text("LIKELY",177,229);
+}
+if (answer === 18) {
+    text("OUTLOOK",170,200);
+    text("GOOD",178,229);
+}
+if (answer === 19) {
+    text("YES",185,210);
+}
+if (answer === 20) {
+    text("SIGNS POINT",160,210);
+    text("TO YES",175,239);
+}
+if (answer === 21) {
+    text("NO",188,210);
+}
+
